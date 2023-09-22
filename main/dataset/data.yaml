@@ -1,0 +1,14 @@
+path: /Users/nasir/Documents/3dprints/dataset/data.yaml
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['chicken muscle post', 'chicken muscle pre', 'lamb liver post', 'lamb liver pre', 'lamb muscle post', 'lamb muscle pre']
+
+roboflow:
+  workspace: zshar
+  project: segmentationtissue-detection-p2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zshar/segmentationtissue-detection-p2/dataset/1
