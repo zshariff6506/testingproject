@@ -28,7 +28,7 @@ while True:
             finish()
 
 for images in tqdm(files, desc='YOLO Inference: '):
-    model = YOLO('/Users/nasir/Documents/3dprints/runs/segment/train6/weights/best.pt')
+    model = YOLO('/runs/segment/train6/weights/best.pt')
 
     results = model(images, verbose=False)
 
